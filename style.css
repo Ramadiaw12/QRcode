@@ -15,7 +15,7 @@ body{
     color: #fff;
 }
 .wrapper{
-    height: 400px;
+    height: 450px;
     max-width: 410px;
     background: #222;
     border-radius: 7px;
@@ -45,6 +45,8 @@ button:hover{
 }
 .form{
     margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
 }
 .qr-code{
     
@@ -56,5 +58,7 @@ img{
     border: 2px solid #e6b298;
     width: 63%;
     margin-right: 0%;
-    margin-left: 60px;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
 }
